@@ -64,7 +64,7 @@ def remove_students():
     except FileNotFoundError:
         print('A student file has not been created yet, try registering someone first.')
 
-menu = {1:register_students(), 2:list_students(), 3:search_students(), 4:remove_students()}
+menu = {1:register_students, 2:list_students, 3:search_students, 4:remove_students}
 "Menu made to interact with the functions"
 
 while True:
